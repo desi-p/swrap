@@ -18,6 +18,6 @@ from django.urls import include, path
 from swrapproj import views
 
 urlpatterns = [
-    path('index/', include('swrapproj.urls')),
     path('admin/', admin.site.urls),
+    path('index/', include('swrapproj.urls')),
 ]
